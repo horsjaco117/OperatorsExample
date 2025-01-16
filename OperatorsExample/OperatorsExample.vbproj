@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{7E5C597D-E6D6-41C8-B1AA-C123B3814857}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>OperatorsExample.Module1</StartupObject>
+    <StartupObject>OperatorsExample.OperatorsExample</StartupObject>
     <RootNamespace>OperatorsExample</RootNamespace>
     <AssemblyName>OperatorsExample</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="OperatorsExample.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
