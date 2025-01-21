@@ -4,6 +4,10 @@
 'OperatorsExample
 'https://github.com/horsjaco117/OperatorsExample
 
+Option Compare Text
+
+
+
 Imports System.Net.Http
 
 Module OperatorsExample
@@ -51,6 +55,31 @@ Module OperatorsExample
         Console.WriteLine()
         Console.WriteLine(vbNewLine & "wake up neo..." & vbNewLine & "follow the white rabbit...")
         Console.WriteLine(StrDup(10, "*"))
+
+        'Compare
+        Console.Write("5 > 3 =") 'print a string
+        Console.WriteLine(5 > 3) '
+        Console.WriteLine()
+
+        Console.Write("5 < 3 =") 'print a string
+        Console.WriteLine(5 < 3) '
+        Console.WriteLine()
+
+        Console.Write("does 5 = 3 ? ") 'print a string
+        Console.WriteLine(5 = 3) '
+        Console.WriteLine()
+
+        Console.Write("is 5 not equal to 3 ? ") 'print a string
+        Console.WriteLine(5 <> 3) '
+        Console.WriteLine()
+
+        Console.Write("A > B = ") 'print a string
+        Console.WriteLine("A" > "B") '
+        Console.WriteLine()
+
+        Console.Write("is " & Chr(34) & "A" & Chr(34) & " the same as " & Chr(34) & "a" & Chr(34) & "  ") 'print a string
+        Console.WriteLine("A" = "a") '
+        Console.WriteLine()
 
 
 
